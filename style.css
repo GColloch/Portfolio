@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Josefin+Sans:100|Rambla&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color: #283655 !important;
+    background-color: #002751 !important;
+    font-family: 'Rambla', sans-serif;
+}
+h2, h3{
+    font-family: 'Audiowide', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #283655;
+}
+li{
+    list-style-type: none;
+}
+/*------ HEADER ------*/
+
+.navbar {
+    background-color: #fafafa;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+}
+.navbar-nav{
+    width: 80% !important;
+    margin: auto;
+    justify-content: space-between;
+}
+header{
+    text-align: center;
+    height: 113vh;
+    background: #ee886b;
+    background-size: cover;
+}
+h1{
+    padding: 90px 0 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+
+}
+
+#line{
+    height: 1px;
+    background-color: #b3aca7;
+    width: 25%;
+    margin: 0 auto;
+}
+h2{
+    padding: 20px 0 50px 0;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.presentation{
+    height: 240px;
+    margin-top: -20px;
+}
+.infos{
+    border: 1px solid #b3aca7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.photo{
+
+    position: relative;
+    margin-bottom: ;
+
+}
+.photo img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    max-width: 70%;
+    border-radius: 30px;
+    box-shadow: 0 0 4px #111;
+}
+.button{
+    margin-top: 55px;
+    
+}
+header.button{
+    margin-top: 45px;
+
+}
+header .button a{
+    padding: 20px 80px;
+    border: 1px solid #b3aca7;
+    width: 300px;
+
+}
+header .button:hover a{
+    background: #b3aca7;
+    color: #e2dedb;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+/*---------COMPETENCES-----------*/
+#languages {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    height: 656px;
+    width: 85%;
+    max-width: 640px;
+    background: linear-gradient(118deg,#ee886b 0%, rgba(255,0,0,0) 99%);
+    clip-path: polygon(0 5%, 100% 0, 91% 100%, 0 90%);
+}
+
+#languages h3{
+    border-bottom: 4px solid black;
+    border-radius: 2px;
+    border-color: #283655;
+    
+}
+
+#languages .bar {
+    padding: 20px 0 4px 0;
+    letter-spacing: 0.1em;
+}
+
+#Diplômes {
+    position: relative;
+    top: auto;
+    float: right;
+    margin-right: 10%;
+    padding: 80px 80px 80px 50px;
+    width: 85%;
+    max-width: 640px;
+    background: linear-gradient(90deg,#ee886b 0%, transparent 99%);
+    clip-path: polygon(0 0, 100% 8%, 100% 89%, 5% 100%);
+
+}
+#Diplômes h3{
+    border-bottom: 4px solid black;
+    border-radius: 2px;
+    border-color: #283655;
+    
+}
+
+/*---------PARCOURS-----------*/
+#parcours {
+    max-width: 800px;
+    margin: 650px auto 180px auto;
+    padding: 40px 30px 100px 30px;
+    background-color:#ee886b ;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: -1px -1px 8px #283655;
+}
+#parcours h3{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+#parcours h4{
+    font-size: 1.6em;
+    color: #283655;
+    margin-left: 20px;
+}
+#parcours h6{
+    font-style: italic;
+    color: #283655;
+    margin-left: 20px;
+}
+#parcours p{
+    line-height: 1.9em;
+}
+.timeline {
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #f9d423, #ff4e50);
+    border-image-slice: 1;
+    margin: 0;
+    padding: 40px;
+    position: relative;
+}
+.timeline:nth-child(1)::after{
+    content: '▲';
+    color: #ff4e50;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    box-sizing: content-box !important;
+}
+.timeline:nth-child(1) {
+    border-bottom: 3px solid;
+    border-top: none;
+    width: 80%;
+}
+.timeline:nth-child(2){
+    border-top: none;
+}
+.timeline:nth-child(odd){
+    border-right: 3px solid;
+    padding-left: 0;
+}
+.timeline:nth-child(even){
+    border-left: 3px solid;
+    padding-right: 0;;
+}
