@@ -12,7 +12,7 @@ window.addEventListener('scroll', function() {
         navbar.style.top="0";
     }
     lastScrollTop = scrollTop;
-})
+});
 
 // TYPED
 var typed = new Typed('.typed', {
