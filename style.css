@@ -502,6 +502,7 @@ footer p {
   font-size: 0.9em;
   letter-spacing: 0.3em;
 }
+
 /* ********************** MEDIA QUERIES *********************** */
 @media screen and (max-width: 900px) {
   .infos h5, .typed {
@@ -518,7 +519,6 @@ footer p {
     padding: 10x 20px; 
   }
 }
-
 @media screen and (max-width: 770px) {
   .navbar {
     display: none !important;
@@ -534,12 +534,10 @@ footer p {
     margin-left: 10%;
   }
   #Diplômes {
-    margin: 50px 0 0 10%;
-    margin-bottom: 100px;
+    margin: 110px 0 0 10%;
     width: 80%;
     float: none;
     display: block;
-
   }
   .counter-value {
     font-size: 1em;
@@ -548,7 +546,7 @@ footer p {
     font-size: .8em;
   }
   #parcours {
-    margin-top: -50px
+    margin-top: 50px
   }
   .legende p {
     display: none;
@@ -576,9 +574,6 @@ footer p {
   }
   h3 {
     font-size: 1em !important;
-  }
-  #fcc, #occ {
-    padding: 50px 0 0 0;
   }
   .projet:nth-child(2), .projet:nth-child(3) {
     margin-left: 0;
