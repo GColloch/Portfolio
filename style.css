@@ -49,7 +49,7 @@ h1 {
 }
 h2 {
   padding: 20px 0 50px 0;
-  font-size: 3em;
+  font-size: 1em;
   text-transform: uppercase;
 }
 .presentation {
@@ -526,8 +526,12 @@ footer p {
   .fixed-top {
     position: unset !important;
   }
-  h1, h2 {
+  h1{
     font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1em;
   }
   #langages {
     width: 80%;
