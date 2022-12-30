@@ -126,7 +126,7 @@ header .button:hover a {
 /* ********************** PARCOURS *************************** */
 #parcours {
   max-width: 800px;
-  margin: 640px auto 180px auto;
+  margin: 690px auto 180px auto;
   padding: 40px 30px 100px 30px;
   background-color:#ee886b ;
   background-size: cover;
@@ -504,6 +504,11 @@ footer p {
 }
 
 /* ********************** MEDIA QUERIES *********************** */
+@media screen and (max-width: 1208px) {
+  header{
+    height: 130vh;
+  }
+}
 @media screen and (max-width: 900px) {
   .infos h5, .typed {
     font-size: 0.9em;
@@ -517,6 +522,9 @@ footer p {
   .network {
     font-size: 2em;
     padding: 10x 20px; 
+  }
+  header{
+    height: 120vh;
   }
 }
 @media screen and (max-width: 770px) {
@@ -571,10 +579,16 @@ footer p {
   input, textarea {
     width: 300px;
   }
+  header{
+    height: 120vh;
+  }
 }
 @media screen and (max-width: 520px) {
   h1 {
     padding-top: 20px;
+  }
+  header{
+    height: 110vh;
   }
   h3 {
     font-size: 1em !important;
