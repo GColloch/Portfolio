@@ -519,12 +519,10 @@ footer p {
   }
 }
 
-@media screen and (max-width: 196px) {
-.navbar {
-  display: none !important;
-}}
 @media screen and (max-width: 770px) {
-  
+  .navbar {
+    display: none !important;
+  }
   .fixed-top {
     position: unset !important;
   }
