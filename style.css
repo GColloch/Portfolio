@@ -32,7 +32,7 @@ li {
 header {
   text-align: center;
   height: 100vh;
-  background-image: url(/media/header.jpg);
+  background-color: #ee886b;
   background-size: cover;
 }
 h1 {
@@ -612,5 +612,5 @@ footer p {
   height: 1%;
   float: none;
   display: block;
-}
+  }
 }
