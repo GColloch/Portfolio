@@ -93,6 +93,21 @@ header .button:hover a {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
 }
+
+header .button2 {
+  margin-top: 65px;
+}
+header .button2 a {
+  padding: 20px 80px;
+  border: 1px solid #b3aca7;
+  width: 300px;
+}
+header .button2:hover a {
+  background: #b3aca7;
+  color: #e2dedb;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+}
 /* ********************** LANGAGES *********************** */
 #langages {
   padding: 80px 80px 80px 50px;
