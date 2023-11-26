@@ -127,7 +127,7 @@ header .button2:hover a {
   float: right;
   padding: 80px 80px 80px 50px;
   margin: 20px 0 0 6%;
-  height: 830px;
+  height: 1050px;
   width: 47%;
   max-width: 640px;
   background: linear-gradient(118deg,#ee886b 0%, rgba(255,0,0,0) 99%);
@@ -141,7 +141,7 @@ header .button2:hover a {
 /* ********************** PARCOURS *************************** */
 #parcours {
   max-width: 800px;
-  margin: 900px auto 180px auto;
+  margin: 1100px auto 180px auto;
   padding: 40px 30px 100px 30px;
   background-color:#ee886b ;
   background-size: cover;
@@ -640,4 +640,13 @@ footer p {
     width: 100px;
     height: 300px;
   }
+}
+
+
+/* PROJETS DEVS */
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
