@@ -647,13 +647,30 @@ footer p {
 .video-container {
   display: flex;
   align-items: center;
-  justify-content:space-around;
+  justify-content: space-around;
   height: 100%;
-  flex-wrap: wrap; /* Permettre le retour à la ligne des vidéos sur les petits écrans */
-  
+  flex-wrap: wrap;
 }
-video {
-  max-width: 100%; /* La vidéo ne dépassera jamais la largeur du conteneur parent */
-  height: auto; /* La hauteur s'ajuste automatiquement en fonction de la largeur pour maintenir le ratio d'aspect */
-  margin-bottom: 20px; /* Espacement entre les vidéos */
+
+
+.design-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px auto 0; /* Ajouter une marge supérieure de 50px et centrer le conteneur sur la page */
+}
+
+.design {
+  box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  margin-bottom: 50px;
+}
+
+.designLogo {
+  width: 100%;
+  max-width: 400px;
+  height: 350px;
+  margin-bottom: 50px;
 }
