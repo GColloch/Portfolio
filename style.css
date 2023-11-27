@@ -650,6 +650,7 @@ footer p {
   justify-content: space-around;
   height: 100%;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 iframe{
   width: 100%;
