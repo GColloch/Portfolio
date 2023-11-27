@@ -647,6 +647,13 @@ footer p {
 .video-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content:space-around;
   height: 100%;
+  flex-wrap: wrap; /* Permettre le retour à la ligne des vidéos sur les petits écrans */
+  
+}
+video {
+  max-width: 100%; /* La vidéo ne dépassera jamais la largeur du conteneur parent */
+  height: auto; /* La hauteur s'ajuste automatiquement en fonction de la largeur pour maintenir le ratio d'aspect */
+  margin-bottom: 20px; /* Espacement entre les vidéos */
 }
